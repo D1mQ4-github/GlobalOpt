@@ -1,0 +1,29 @@
+.advantages {
+    padding: 58px 0 51px 0;
+    background-color: #f3f3f3;
+    &__items {
+        margin-top: 31px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 49%;
+        display: flex;
+        margin-top: 36px;
+        &:nth-child(1),
+        &:nth-child(2) {
+            margin-top: 0;
+        }
+    }
+    &__img {
+        margin-right: 14px;
+        img {
+            display: block;
+            width: 64px;
+        }
+    }
+    &__text {
+        width: 447px;
+    }
+}

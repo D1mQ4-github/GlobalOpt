@@ -1,0 +1,47 @@
+.contact {
+    background: url('../../img/bg/questions__bg.jpg') center center/cover no-repeat;
+    padding: 62px 0 79px 0;
+    &__wrapper {
+        width: 896px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, .7);
+    }
+    &__header {
+        padding: 20px 0;
+        width: 100%;
+        background-color: #25333c;
+    }
+    &__title {
+        font-size: 19px;
+        font-weight: bold;
+        color: $white-color;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        font-size: 14px;
+        font-weight: normal;
+        color: $white-color;
+        text-transform: uppercase;
+        margin-top: 5px;
+    }
+    &__form {
+        padding: 18px 41px 25px 41px;
+    }
+    &__message {
+        padding: 18px 25px;
+        width: 100%;
+        border: solid 1px rgba(0, 0, 0, 0.21);
+        border-radius: 8px;
+        resize: none;
+        font-size: 13px;
+        font-weight: 300;
+        color: #616467;
+        margin-top: 8px;
+    }
+    &__btn {
+        width: 180px;
+        height: 45px;
+        font-size: 12px;
+        margin: 17px auto 0 auto;
+    }
+}

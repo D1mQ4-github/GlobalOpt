@@ -1,0 +1,42 @@
+.consultation {
+    padding: 0 0 80px 0;
+    &__title {
+        font-size: 28px;
+        font-weight: normal;
+        line-height: 0.82;
+        text-align: center;
+        color: $text-color;
+    }
+    &__wrapper {
+        position: relative;
+        border: 1px solid #898989;
+        margin-top: 71px;
+        padding: 68px 0 53px 0;
+    }
+    &__img {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%) translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #e93b3b;
+        border-radius: 100%;
+        background-color: #ffffff;
+        outline: 10px solid #fff;
+    }
+    &__btn {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+        width: 180px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: normal;
+        outline: 10px solid #fff;
+    }
+}

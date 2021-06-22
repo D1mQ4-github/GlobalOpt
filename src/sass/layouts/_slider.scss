@@ -1,0 +1,32 @@
+.slider {
+    margin-top: 31px;
+    &__slide {
+        width: 601px;
+    }
+    &__img {
+        margin: 0 auto;
+        width: 114px;
+        height: 114px;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+        }
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: $text-color;
+        margin-top: 19px;
+    }
+    &__text {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 20px;
+        color: $text-color;
+        margin-top: 10px;
+    }
+}

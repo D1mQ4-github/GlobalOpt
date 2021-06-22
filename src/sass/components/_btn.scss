@@ -1,0 +1,15 @@
+.btn {
+    display: block;
+    background-color: $orange-color;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: $white-color;
+    text-transform: uppercase;
+    text-align: center;
+    transition: .5s;
+    &:hover {
+        cursor: pointer;
+        background-color: #dc5238;
+    }
+}

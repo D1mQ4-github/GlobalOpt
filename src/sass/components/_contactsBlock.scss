@@ -1,0 +1,27 @@
+.contacts-block {
+    display: flex;
+    &__contact {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.71;
+        text-align: right;
+        color: $white-color;
+        margin-right: 18px;
+    }
+    &__phone {
+        display: block;
+        font-size: 19px;
+        font-weight: bold;
+        line-height: 1.26;
+        text-align: right;
+        text-decoration: none;
+        color: $white-color;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &__btn {
+        width: 160px;
+        font-size: 12px;
+    }
+}

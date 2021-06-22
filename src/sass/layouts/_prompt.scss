@@ -1,0 +1,34 @@
+.prompt {
+    padding: 58px 0 75px 0;
+    &-agent {
+        background: url('../../img/bg/agent__bg.jpg') center center/cover no-repeat;
+    }
+    &-manager {
+        background: url('../../img/bg/managers__bg.jpg') center center/cover no-repeat;
+    }
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        border: 1px solid $white-color;
+        border-radius: 100%;
+        margin: 0 auto;
+    }
+    &__title {
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+        color: $white-color;
+        margin-top: 20px;
+    }
+    &__text {
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 1.42;
+        text-align: center;
+        color: $white-color;
+        margin-top: 22px;
+    }
+}

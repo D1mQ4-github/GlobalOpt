@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1170px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: $header-color;
+}
+
+.subtitle {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.14;
+    text-align: center;
+    color: $header-color;
+    margin-top: 17px;
+}
+
+.divider {
+    display: block;
+    margin: 25px auto 0 auto;
+    width: 148px;
+    height: 1px;
+    background-color: $orange-color;
+}
+
+.tac {
+    text-align: center;
+}

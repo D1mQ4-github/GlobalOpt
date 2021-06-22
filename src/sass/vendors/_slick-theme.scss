@@ -1,0 +1,70 @@
+/* Arrows */
+
+.slick-prev,
+.slick-next {
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -180%);
+    display: block;
+    height: 50px;
+    width: 20px;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.slick-prev {
+    display: block;
+    left: 44%;
+    &:before {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%) rotate(-45deg);
+        content: "";
+        display: block;
+        width: 20px;
+        height: 3px;
+        background-color: $orange-color;
+    }
+    &::after {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%) rotate(45deg);
+        content: "";
+        display: block;
+        width: 20px;
+        height: 3px;
+        background-color: $orange-color;
+    }
+}
+
+.slick-next {
+    display: block;
+    right: 44%;
+    &:before {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%) rotate(45deg);
+        content: "";
+        display: block;
+        width: 20px;
+        height: 3px;
+        background-color: $orange-color;
+    }
+    &::after {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%) rotate(-45deg);
+        content: "";
+        display: block;
+        width: 20px;
+        height: 3px;
+        background-color: $orange-color;
+    }
+}

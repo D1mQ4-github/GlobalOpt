@@ -1,0 +1,28 @@
+.scheme {
+    padding: 51px 0 46px 0;
+    background-color: #f3f3f3;
+    &__items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 250px;
+        margin-top: 26px;
+        margin-right: 40px;
+        &-mrn {
+            margin-right: 0;
+        }
+    }
+    &__img {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        img {
+            height: 100%;
+        }
+    }
+    &__text {
+        margin-top: 10px;
+    }
+}
