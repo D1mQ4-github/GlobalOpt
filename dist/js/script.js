@@ -1,4 +1,8 @@
 $(document).ready(() => {
+    $('.hamburger').click(() => {
+        $('.header__nav').toggleClass('header__nav-active');
+    });
+
     $('.slider').slick({
         centerMode: true,
         centerPadding: '0px',
@@ -11,7 +15,7 @@ $(document).ready(() => {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '40px',
-                    slidesToShow: 3
+                    slidesToShow: 1
                 }
             },
             {
@@ -24,5 +28,5 @@ $(document).ready(() => {
                 }
             }
         ]
-    })
+    });
 });

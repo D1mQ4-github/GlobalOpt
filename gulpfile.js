@@ -8,7 +8,7 @@ const htmlmin = require('gulp-htmlmin');
 
 function server() {
     browserSync.init({
-        server: './dist'
+        server: './src'
     });
 
     gulp.watch('./src/sass/**/*.scss', gulp.series(css));

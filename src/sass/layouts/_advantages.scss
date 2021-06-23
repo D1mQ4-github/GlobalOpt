@@ -11,8 +11,7 @@
         width: 49%;
         display: flex;
         margin-top: 36px;
-        &:nth-child(1),
-        &:nth-child(2) {
+        &-mtn {
             margin-top: 0;
         }
     }

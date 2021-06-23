@@ -19,6 +19,9 @@
         &:hover {
             text-decoration: underline;
         }
+        &-xl {
+            display: none;
+        }
     }
     &__btn {
         width: 160px;
